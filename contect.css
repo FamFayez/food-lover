@@ -1,0 +1,71 @@
+
+#contactForm {
+    background-color: white;
+    width: 450px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#contactForm h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#contactForm .formControl {
+    margin: 20px 0px;
+
+
+
+}
+
+#contactForm .formControl label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactForm .formControl input,
+#contactForm .formControl textarea {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+#contactForm .formControl input:focus,
+#contactForm .formControl textarea:focus {
+    outline: 0;
+    border-color: #fe3737;
+}
+
+#contactForm .formControl span {
+    color: #fe3737;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+#contactForm .formControl.error span {
+
+    visibility: visible;
+}
+
+#contactForm .formControl.error input,
+#contactForm .formControl.error textarea {
+    border-color: #fe3737;
+}
+
+#contactForm .btn_submit {
+    width: 100%;
+    background-color: silver;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
